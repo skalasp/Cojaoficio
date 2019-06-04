@@ -7,7 +7,6 @@ Username  varchar(255)	not null,
 Password  varchar(255)
 );
 
-
 create table Informacion_Basica(
 IdUsuario int primary key not null,
 NumeroDocumento int not null,
