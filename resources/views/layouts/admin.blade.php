@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CojaOficio | www.incanatoit.com</title>
+    <title>CojaOficio | www.cojaoficio.com</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -27,9 +27,9 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>AD</b>V</span>
+          <span class="logo-mini"><b>CO</b>V</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ADVentas</b></span>
+          <span class="logo-lg"><b>CojaOficio</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -46,16 +46,15 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <small class="bg-red">Online</small>
-                  <span class="hidden-xs">Juan Carlos Arcila Díaz</span>
+                  <span class="hidden-xs">Desarrollo Cojaoficio</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     
                     <p>
-                      www.incanatoit.com - Desarrollando Software
-                      <small>www.youtube.com/jcarlosad7</small>
+                      Desarrollando Software
+                      <small>https://github.com/skalasp/Cojaoficio/</small>
                     </p>
                   </li>
                   
@@ -162,7 +161,7 @@
             <div class="col-md-12">
               <div class="box">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Sistema de Ventas</h3>
+                  <h3 class="box-title">Coja Oficio</h3>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                     
@@ -174,7 +173,7 @@
                   	<div class="row">
 	                  	<div class="col-md-12">
 		                          <!--Contenido-->
-                            @yield('contenido')
+                              @yield('contenido')
 		                          <!--Fin Contenido-->
                            </div>
                         </div>
@@ -191,9 +190,9 @@
       <!--Fin-Contenido-->
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
+          <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2015-2020 <a href="www.incanatoit.com">IncanatoIT</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2015-2020 All rights reserved.
       </footer>
 
       

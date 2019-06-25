@@ -4,7 +4,7 @@ namespace Cojaoficio\Http\Requests;
 
 use Cojaoficio\Http\Requests\Request;
 
-class CategoriaFormRequest extends FormRequest
+class CategoriaFormRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.

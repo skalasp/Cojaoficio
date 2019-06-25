@@ -10,10 +10,12 @@ use Illuminate\Support\Facades\Redirect;
 use Cojaoficio\Http\Requests\CategoriaFormRequest;
 use DB;
 
+
 class CategoriaController extends Controller
 {
     public function __construct()
     {
+
     }
     public function index(Request $request)
     {
@@ -23,7 +25,7 @@ class CategoriaController extends Controller
             $categorias=DB::table('categoria')->where('nombre','LIKE','%'.$query.'%')
             ->where ('condicion','=','1')
             ->orderBy('idcategoria','desc')
-            ->paginate(10);
+            ->paginate(7);
             return view('almacen.categoria.index',["categorias"=>$categorias,"searchText"=>$query]);
         }
     }
@@ -39,6 +41,7 @@ class CategoriaController extends Controller
         $categoria->condicion='1';
         $categoria->save();
         return Redirect::to('almacen/categoria');
+
     }
     public function show($id)
     {
@@ -63,5 +66,5 @@ class CategoriaController extends Controller
         $categoria->update();
         return Redirect::to('almacen/categoria');
     }
-
+    
 }
